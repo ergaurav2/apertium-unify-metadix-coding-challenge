@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 (abdominal:abdominal)[abdominal__adj]; # abdominal
 (abrumador:abrumador)[abrumador__adj]; # abrumador
 (absolut:absolut)[absolut/o__adj]; # absoluto

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!bin/bash
 if [ $# !=  2 ]; then
 	echo "Error: Invalid Number of Arguments!"
 	echo "First argument should be <Path of the language dictionary file of .dix format>"
