@@ -19,7 +19,7 @@
     <!-- Template for the element "i" -->
     <xsl:template match="i">
         <xsl:text>(</xsl:text>
-        <xsl:for-each select="text()|b">
+        <xsl:for-each select="text()|b|s">
             <xsl:apply-templates select="."></xsl:apply-templates>
         </xsl:for-each>       
         <xsl:text>:</xsl:text>
@@ -29,7 +29,7 @@
         <xsl:if test="../@r='LR'">
             <xsl:text disable-output-escaping="yes">&gt;:</xsl:text>
         </xsl:if>    
-        <xsl:for-each select="text()|b">
+        <xsl:for-each select="text()|b|s">
             <xsl:apply-templates select="."></xsl:apply-templates>
         </xsl:for-each>  
         <xsl:text>)</xsl:text>
